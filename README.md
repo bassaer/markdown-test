@@ -4,8 +4,8 @@
 print 'ok'
 ```
 
-<!-- start list -->
+<!-- start -->
 - abc
 - def
 
-<!-- end list -->
+<!-- end -->
