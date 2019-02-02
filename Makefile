@@ -1,0 +1,2 @@
+test:
+	@bash replace.sh
