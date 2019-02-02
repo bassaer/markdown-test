@@ -3,7 +3,7 @@
 desc=$(cat << EOS
 <!-- start -->
 |file name|content|
-|:--:|:--:|
+|:--|:--|
 $(grep desc files/*.yaml | awk -F':desc: ' -v 'OFS=' '{print "|",$1,"|",$2,"|"}')
 <!-- end -->
 EOS
