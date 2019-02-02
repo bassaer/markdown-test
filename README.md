@@ -9,7 +9,10 @@ print 'ok'
 <!-- start -->
 |file name|content|
 |:--|:--|
-|files/1.yaml|aaaaa|
-|files/2.yaml|bbbb|
-|files/300.yaml|ccccc|
+|files1/1.yaml|aaaaa|
+|files1/2.yaml|bbbb|
+|files1/300.yaml|ccccc|
+|files2/1.yaml|yyyyyyy|
+|files2/2.yaml|aaaa bbbb cccccc|
+|files2/300.yaml|this is test|
 <!-- end -->
