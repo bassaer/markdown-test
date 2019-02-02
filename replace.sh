@@ -11,10 +11,10 @@ EOS
 
 awk --assign d="$desc" '
   /<!-- start -->/ {
-  print d
+    print d
   }
   /<!-- start -->/,/<!-- end -->/ {
-  next
+    next
   }
   1
 ' README.md > tmp && mv tmp README.md
