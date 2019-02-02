@@ -17,4 +17,5 @@ print 'ok'
 |files2/1.yaml|yyyyyyy|
 |files2/2.yaml|aaaa bbbb cccccc|
 |files2/300.yaml|this is test|
+|files2/301.yaml|テスト|
 <!-- end -->
