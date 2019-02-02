@@ -12,6 +12,7 @@ print 'ok'
 |files1/1.yaml|aaaaa|
 |files1/2.yaml|bbbb|
 |files1/300.yaml|ccccc|
+|files1/4.yaml|hoge hoge|
 |files2/1.yaml|yyyyyyy|
 |files2/2.yaml|aaaa bbbb cccccc|
 |files2/300.yaml|this is test|

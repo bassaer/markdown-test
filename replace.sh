@@ -9,9 +9,9 @@ $(grep desc files1/*.yaml files2/*.yaml | awk -F':desc: ' -v 'OFS=' '{print "|",
 EOS
 )
 
-awk --assign d="$desc" '
+awk --assign desc="$desc" '
   /<!-- start -->/ {
-  print d
+  print desc
   }
   /<!-- start -->/,/<!-- end -->/ {
   next
