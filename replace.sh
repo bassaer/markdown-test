@@ -2,7 +2,9 @@
 
 desc=$(cat << EOS
 <!-- start -->
-$(grep desc files/*.yaml | awk -F':desc:' '{print "-",$1,"\t",$2}')
+\`\`\`
+$(grep desc files/*.yaml | awk -F':desc:' -v 'OFS=' '{print "- ","`",$1,"`","\t",$2}')
+\`\`\`
 <!-- end -->
 EOS
 )
