@@ -1,2 +1,2 @@
 test:
-	@bash replace.sh
+	@bash transcribe.sh

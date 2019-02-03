@@ -17,4 +17,6 @@ awk --assign d="$desc" '
     next
   }
   1
-' README.md > tmp && mv tmp README.md
+' README.md > tmp
+
+mv tmp README.md
